@@ -1,0 +1,9 @@
+#name : respond_to(extjs coll) ...
+#key : resp
+#group : rails
+# --
+respond_to do |format|
+  format.json do
+    render :json => { :success => true, :total => @${1:models}.length, :$1 => @$1.as_json(:only => [:id, ${other fields}]) }
+  end
+end
