@@ -1,4 +1,5 @@
-#name : <% if  ...  -%> $. <% else -%> <% end -%>
+# name : <% if  ...  -%> $. <% else -%> <% end -%>
+# key : %ifel
 # --
 <% if $0cond} -%>
 $0

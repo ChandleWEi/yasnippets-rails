@@ -1,3 +1,4 @@
-#name : <%= text_field(" ... ", " ... ") %>
+# name : <%= text_field(" ... ", " ... ") %>
+# key : %tf
 # --
 <%= text_field("${object_name} ", "${method}"$0) %>

@@ -1,3 +1,4 @@
-#name : <%= render(:partial => ... ) %>
+# name : <%= render(:partial => ... ) %>
+# key : %rp
 # --
 <%= render(:partial => "${action}"$0 ) %>

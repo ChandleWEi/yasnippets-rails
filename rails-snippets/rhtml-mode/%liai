@@ -1,3 +1,4 @@
-#name : <%= link_to " ... ", :action => " ... ", :id =>  ...  %>
+# name : <%= link_to " ... ", :action => " ... ", :id =>  ...  %>
+# key : %liai
 # --
 <%= link_to "${title}", :action => "${edit}", :id => ${@item} %>$0

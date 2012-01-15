@@ -1,4 +1,5 @@
-#name : <% unless  ...  -%> $. <% end -%>
+# name : <% unless  ...  -%> $. <% end -%>
+# key : %unless
 # --
 <% unless ${cond} -%>
 $0

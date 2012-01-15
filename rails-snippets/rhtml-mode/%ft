@@ -1,4 +1,5 @@
-#name : <% form_tag(:action => " ... ") do %> ... <% end  %>
+# name : <% form_tag(:action => " ... ") do %> ... <% end  %>
+# key : %ft
 # --
 <% form_tag(:action => "${update}") do %>
 $0
