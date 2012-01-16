@@ -1,4 +1,5 @@
-#name : render :text => " ... ", :status =>  ... 
-#group : rails
+# name : render :text => " ... ", :status =>  ... 
+# group : rails
+# key : rts
 # --
-render :text => "${Text here...}", :status => ${401}
+render :text => "${1:Text here...}", :status => ${2:401}

@@ -1,4 +1,5 @@
-#name : render_component :action => " ... "
-#group : rails
+# name : render_component :action => " ... "
+# group : rails
+# key : rcea
 # --
-render_component :action => "${index}"
+render_component :action => "${1:index}"$0

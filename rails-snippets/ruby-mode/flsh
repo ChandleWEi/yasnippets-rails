@@ -1,4 +1,5 @@
-#name : flash[: ... ] = " ... "
-#group : rails
+# name : flash[: ... ] = " ... "
+# group : rails
+# key : flsh
 # --
-flash[:${notice}] = "${Text here...}"
+flash[:${1:notice}] = "${2:Text here...}"

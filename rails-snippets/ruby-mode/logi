@@ -1,4 +1,5 @@
-#name : logger.info " ... "
-#group : rails
+# name : logger.info " ... "
+# group : rails
+# key
 # --
-logger.info "${Text here...}"
+logger.info "${1:Text here...}"

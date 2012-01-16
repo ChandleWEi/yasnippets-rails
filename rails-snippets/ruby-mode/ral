@@ -1,4 +1,5 @@
-#name : render :action => " ... ", :layout => " ... "
-#group : rails
+# name : render :action => " ... ", :layout => " ... "
+# group : rails
+# key : ral
 # --
-render :action => "${action}", :layout => "${layoutname}"
+render :action => "${1:action}", :layout => "${2:layoutname}"$0

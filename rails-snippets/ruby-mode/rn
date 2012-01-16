@@ -1,4 +1,5 @@
-#name : render :nothing =>  ... 
-#group : rails
+# name : render :nothing =>  ... 
+# group : rails
+# key : rn
 # --
-render :nothing => ${true}
+render :nothing => ${1:true}

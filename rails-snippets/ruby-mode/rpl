@@ -1,4 +1,5 @@
-#name : render :partial => " ... ", :locals => { : ...  => " ... "}
-#group : rails
+# name : render :partial => " ... ", :locals => { : ...  => " ... "}
+# group : rails
+# key : rpl
 # --
-render :partial => "${item}", :locals => { :${name} => "${value}"}
+render :partial => "${1:item}", :locals => { :${2:name} => "${3:value}"}$0

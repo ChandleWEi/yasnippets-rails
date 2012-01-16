@@ -1,4 +1,5 @@
-#name : belongs_to : ... 
-#group : rails
+# name : belongs_to : ... 
+# group : rails
+# key : bt
 # --
-belongs_to :${class}
+belongs_to :${1:class}

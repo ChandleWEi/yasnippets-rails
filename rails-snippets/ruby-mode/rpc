@@ -1,4 +1,5 @@
-#name : render :partial => " ... ", :collection =>  ... 
-#group : rails
+# name : render :partial => " ... ", :collection =>  ... 
+# group : rails
+# key : rpc
 # --
-render :partial => "${item}", :collection => ${items}
+render :partial => "${1:item}", :collection => @${2:items}

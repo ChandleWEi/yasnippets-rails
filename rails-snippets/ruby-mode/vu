@@ -1,4 +1,5 @@
-#name : validates_uniqueness_of : ... 
-#group : rails
+# name : validates_uniqueness_of : ... 
+# group : rails
+# key : vu
 # --
-validates_uniqueness_of :${attr}
+validates_uniqueness_of :${1:attr}

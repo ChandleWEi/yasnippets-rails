@@ -1,4 +1,5 @@
-#name : render :inline => " ... ", :locals => {  ...  => " ... " }
-#group : rails
+# name : render :inline => " ... ", :locals => {  ...  => " ... " }
+# group : rails
+# key : ril
 # --
-render :inline => "${<%= 'hello' %>}", :locals => { ${name} => "${value}" }
+render :inline => "${1:<%= 'hello' %>}", :locals => { ${2:name} => "${3:value}" }$0

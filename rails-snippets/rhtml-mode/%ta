@@ -1,4 +1,4 @@
-# name : <%= text_area("...", "...") %>
+# name : <%= text_area(:..., :..., ...) %>
 # key : %ta
 # --
-<%= text_area("${1:object_name}", "${2:method}") %>$0
+<%= text_area(:${1:model}, :${2:method}${3:, $4}) %>$0

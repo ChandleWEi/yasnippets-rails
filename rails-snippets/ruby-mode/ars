@@ -1,4 +1,5 @@
-#name : assert_response : ... 
-#group : rails
+# name : assert_response : ... 
+# group : rails
+# key : ars
 # --
-assert_response :${success}
+assert_response :${1:success}

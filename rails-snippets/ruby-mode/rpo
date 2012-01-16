@@ -1,4 +1,5 @@
-#name : render :partial => " ... ", :object =>  ... 
-#group : rails
+# name : render :partial => " ... ", :object =>  ... 
+# group : rails
+# key : rpo
 # --
-render :partial => "${item}", :object => ${object}
+render :partial => "${1:item}", :object => ${2:object}

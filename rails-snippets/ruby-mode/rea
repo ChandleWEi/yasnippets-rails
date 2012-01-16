@@ -1,4 +1,5 @@
-#name : redirect_to :action => " ... "
-#group : rails
+# name : redirect_to :action => " ... "
+# group : rails
+# key : rea
 # --
-redirect_to :action => "${index}"
+redirect_to :action => "${1:index}"$0

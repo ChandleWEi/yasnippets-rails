@@ -1,4 +1,5 @@
-#name : assert_raises  ...  { $. }
-#group : rails
+# name : assert_raises  ...  { $. }
+# group : rails
+# key : ar
 # --
-assert_raises ${Exception} { $. }
+assert_raises ${1:exception} { $. }
