@@ -1,7 +1,8 @@
-# name : <% if  ...  -%> $. <% else -%> <% end -%>
+# name : <% if ... -%>...<% else -%>...<% end -%>
 # key : %ifel
 # --
-<% if $0cond} -%>
-$0
+<% if ${1:condition} -%>
+  $2
 <% else -%>
+  $0
 <% end -%>

@@ -1,4 +1,4 @@
-# name : <%= link_to " ... ", :action => " ... " %>
+# name : <%= link_to "...", :action => "..." %>
 # key : %lia
 # --
-<%= link_to "${title}", :action => "${index}" %>$0
+<%= link_to "${1:title}", :action => "${2:index}" %>$0

@@ -1,6 +1,6 @@
-# name : <% if  ...  -%> $. <% end -%>
+# name : <% if  ...  -%> ... <% end -%>
 # key : %if
 # --
-<% if ${cond} -%>
-$0
+<% if ${1:condition} -%>
+  $0
 <% end -%>
