@@ -3,3 +3,4 @@
 # key : par
 # --
 params[:${1:id}]
+

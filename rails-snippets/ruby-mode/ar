@@ -3,3 +3,4 @@
 # key : ar
 # --
 assert_raises ${1:exception} { $2 }
+
