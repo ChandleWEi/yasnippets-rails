@@ -2,4 +2,4 @@
 # group : rails
 # key : rpl
 # --
-render :partial => "${1:item}", :locals => { :${2:name} => "${3:value}"}$0
+render :partial => "${1:item}", :locals => { :${2:name} => "${3:value}"}

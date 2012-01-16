@@ -2,4 +2,4 @@
 # group : rails
 # key : vf
 # --
-validates_format_of :${1:attr}, :with => /${2:regex}/$0
+validates_format_of :${1:attr}, :with => /${2:regex}/

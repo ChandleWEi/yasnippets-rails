@@ -2,4 +2,4 @@
 # group : rails
 # key : rt
 # --
-render :text => "${1:Text here...}"$0
+render :text => "${1:Text here...}"

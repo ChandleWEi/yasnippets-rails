@@ -2,4 +2,4 @@
 # group : rails
 # key : ra
 # --
-render :action => "${1:action}"$0
+render :action => "${1:action}"

@@ -2,4 +2,4 @@
 # group : rails
 # key : rl
 # --
-render :layout => "${1:layoutname}"$0
+render :layout => "${1:layoutname}"

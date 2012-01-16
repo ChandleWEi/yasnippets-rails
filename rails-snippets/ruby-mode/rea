@@ -2,4 +2,4 @@
 # group : rails
 # key : rea
 # --
-redirect_to :action => "${1:index}"$0
+redirect_to :action => "${1:index}"

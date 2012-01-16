@@ -2,4 +2,4 @@
 # group : rails
 # key : rtl
 # --
-render :text => "${1:Text here...}", :layout => "${2:layoutname}"$0
+render :text => "${1:Text here...}", :layout => "${2:layoutname}"

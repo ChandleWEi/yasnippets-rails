@@ -2,4 +2,4 @@
 # group : rails
 # key : ses
 # --
-session[:${1:user}]$0
+session[:${1:user}]

@@ -2,4 +2,4 @@
 # group : rails
 # key : rec
 # --
-redirect_to :controller => "${1:items}"$0
+redirect_to :controller => "${1:items}"

@@ -2,4 +2,4 @@
 # group : rails
 # key : ar
 # --
-assert_raises ${1:exception} { $. }
+assert_raises ${1:exception} { $2 }

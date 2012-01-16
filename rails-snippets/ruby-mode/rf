@@ -2,4 +2,4 @@
 # group : rails
 # key : rf
 # --
-render :file => "${1:filepath}"$0
+render :file => "${1:filepath}"

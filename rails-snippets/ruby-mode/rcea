@@ -2,4 +2,4 @@
 # group : rails
 # key : rcea
 # --
-render_component :action => "${1:index}"$0
+render_component :action => "${1:index}"
