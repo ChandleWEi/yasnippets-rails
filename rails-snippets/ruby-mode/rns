@@ -1,4 +1,5 @@
-#name : render :nothing =>  ... , :status =>  ... 
-#group : rails
+# name : render :nothing =>  ... , :status =>  ... 
+# group : rails
+# key : rns
 # --
-render :nothing => ${true}, :status => ${401}
+render :nothing => ${1:true}, :status => ${2:401}

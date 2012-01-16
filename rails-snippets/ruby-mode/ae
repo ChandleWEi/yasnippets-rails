@@ -1,4 +1,5 @@
-#name : assert_equal  ... ,  ... 
-#group : rails
+# name : assert_equal  ...,  ... 
+# group : rails
+# key : ae
 # --
-assert_equal ${expected}, ${actual}
+assert_equal ${1:expected}, ${2:actual}

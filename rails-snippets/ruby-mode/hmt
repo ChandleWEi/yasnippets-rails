@@ -1,4 +1,5 @@
-#name : has_many :through : ... 
-#group : rails
+# name : has_many :through : ... 
+# group : rails
+# key : hmt
 # --
-has_many :${class_plural}, :through => :${other_class_plural}
+has_many :${1:class_plural}, :through => :${2:other_class_plural}

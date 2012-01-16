@@ -1,15 +1,15 @@
-#name : respond_to(extjs single) ...
-#key : resp
-#group : rails
+# name : respond_to(extjs single) ...
+# key : resp
+# group : rails
 # --
 respond_to do |format|
   if @${1:model}
     format.json do
-      render :json => { :success => true, :$1 => @$1.as_json(:only => [:id, ${other fields}]) }
+      render :json => { :success => true, :$2 => @$3.as_json(:only => [:id, ${4:other fields}]) }
     end
   else
     format.json do
-      render :json => { :success => false, :message => '${1:$(capitalize text)} not found' }
+      render :json => { :success => false, :message => '${5:$(6:capitalize text)} not found' }
     end
   end
 end

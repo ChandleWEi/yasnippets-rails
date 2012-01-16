@@ -1,4 +1,4 @@
-# name : <%= text_field("...", "...", ...) %>
+# name : <%= text_field(:..., :...", ...) %>
 # key : %tf
 # --
-<%= text_field("${1:object_name} ", "${2:method}"${3:, $4}) %>$0
+<%= text_field(:${1:model}, :${2:method}${3:, $4}) %>$0

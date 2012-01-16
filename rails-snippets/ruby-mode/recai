@@ -1,4 +1,5 @@
-#name : redirect_to :controller => " ... ", :action => " ... ", :id =>  ... 
-#group : rails
+# name : redirect_to :controller => " ... ", :action => " ... ", :id =>  ... 
+# group : rails
+# key : recai
 # --
-redirect_to :controller => "${items}", :action => "${show}", :id => ${@item}
+redirect_to :controller => "${1:items}", :action => "${2:show}", :id => ${3:@item}

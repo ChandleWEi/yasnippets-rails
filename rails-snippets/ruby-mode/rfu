@@ -1,4 +1,5 @@
-#name : render :file => " ... ", :use_full_path =>  ... 
-#group : rails
+# name : render :file => " ... ", :use_full_path =>  ... 
+# group : rails
+# key : rfu
 # --
-render :file => "${filepath}", :use_full_path => ${false}
+render :file => "${1:filepath}", :use_full_path => ${2:false}

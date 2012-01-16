@@ -1,4 +1,5 @@
-#name : validates_associated : ... 
-#group : rails
+# name : validates_associated : ... 
+# group : rails
+# key : va
 # --
-validates_associated :${attr}
+validates_associated :${1:attr}

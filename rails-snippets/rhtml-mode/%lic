@@ -1,4 +1,4 @@
-# name : <%= link_to " ... ", :controller => " ... " %>
+# name : <%= link_to "...", ..._path %>
 # key : %lic
 # --
-<%= link_to "${title}", :controller => "${items}" %>$0
+<%= link_to "${1:title}", ${2:title}_path %>$0

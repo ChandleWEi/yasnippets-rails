@@ -1,4 +1,5 @@
-#name : validates_confirmation_of : ... 
-#group : rails
+# name : validates_confirmation_of : ... 
+# group : rails
+# key : vc
 # --
-validates_confirmation_of :${attr}
+validates_confirmation_of :${1:attr}

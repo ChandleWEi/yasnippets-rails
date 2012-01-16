@@ -1,4 +1,5 @@
-#name : has_one : ... 
-#group : rails
+# name : has_one : ... 
+# group : rails
+# key : ho
 # --
-has_one :${class}
+has_one :${1:class}
